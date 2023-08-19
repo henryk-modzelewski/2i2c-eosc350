@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  - cvxopt
+  - deepdish
+  - discretize
+  - empymod=2.0.0
+  - ipywidgets>=0.6.0
+  - jupyter
+  - matplotlib<3.5
+  - mkl>=2021.3.0
+  -
+  - numpy
+  - pillow
+  - 
+  - pymatsolver
+  - 
+  - requests
+  - 
+  - scipy
+  - simpeg
+  - pip:
+    - git+https://github.com/geoscixyz/geosci-labs
