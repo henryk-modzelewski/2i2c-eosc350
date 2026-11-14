@@ -1,6 +1,7 @@
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - cvxopt
   - deepdish
   - discretize
@@ -15,7 +16,6 @@ dependencies:
   - pillow
   - pip
   - pymatsolver
-  - python
   - requests
   - scipy
   - setuptools
