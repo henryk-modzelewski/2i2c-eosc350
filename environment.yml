@@ -2,6 +2,8 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
+  - notebook>=7.6.3
+  - tornado>=6.6.1
   - cvxopt
   - deepdish
   - discretize
