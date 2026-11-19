@@ -1,5 +1,11 @@
 #!/bin/bash
 set -e
+
+# JuliaScript fix
 jl="$(python -c 'import jupyterlab, os; print(os.path.dirname(jupyterlab.__file__))')"
 : > "$jl/staging/yarn.lock"
 rm -rf "$jl/tests/mock_packages"
+
+# Upgrade the npm that repo2docker installs with Node.js; npm 11.x bundles a vulnerable undici
+npm install -g npm@12.2.3
+
