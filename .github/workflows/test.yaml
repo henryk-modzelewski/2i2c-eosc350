@@ -34,7 +34,7 @@ jobs:
 
         # Uncomment and modify the following line with your image name.
         IMAGE_NAME: "henrykmodzelewski/2i2c-eosc350"
-        REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image=docker.io/library/buildpack-deps:noble-scm
+        REPO2DOCKER_EXTRA_ARGS: --base-image=quay.io/henrykmodzelewski/2i2c-base
 
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
